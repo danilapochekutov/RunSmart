@@ -1,0 +1,20 @@
+@import "../base/variables";
+@import "../blocks/promo";
+@import "../blocks/header.scss";
+@import "../blocks/buttons";
+@import "../blocks/advantages";
+@import "../blocks/titles";
+@import "../blocks/consultation";
+@import "../blocks/forms";
+@import "../blocks/carousel";
+@import "../blocks/catalog";
+@import "../blocks/feedback";
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+.container {
+    // padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import "../base/media";

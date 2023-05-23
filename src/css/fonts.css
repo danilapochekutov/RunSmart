@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-500.eot');
+    src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-700.eot');
+    src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/MuseoSansCyrl-300.eot');
+    src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+        url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+        url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+        url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts-icons/icomoon.eot?4wdt6i');
+    src:  url('../fonts-icons/icomoon.eot?4wdt6i#iefix') format('embedded-opentype'),
+      url('../fonts-icons/icomoon.ttf?4wdt6i') format('truetype'),
+      url('../fonts-icons/icomoon.woff?4wdt6i') format('woff'),
+      url('../fonts-icons/icomoon.svg?4wdt6i#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-facebook-f:before {
+    content: "\e903";
+  }
+  .icon-pinterest:before {
+    content: "\e900";
+  }
+  .icon-instagram:before {
+    content: "\e902";
+    color: #e4405f;
+  }
+  
+
+/* <span class="icon-facebook-f"></span>
+<span class="icon-instagram"></span>
+<span class="icon-pinterest"></span> */
