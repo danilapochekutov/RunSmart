@@ -57,6 +57,26 @@
             padding-right: 80px;
         }
     }
+    .footer {
+        height: 530px;
+        &__info {
+            width: 400px;
+            height: 220px;
+            padding: 40px 44px 46px 44px;
+        }
+        &__addr {
+            margin-bottom: 36px;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__phone {
+            font-size: 18px;
+            line-height: 18px;
+        }
+         &__social{
+            margin-top: 30px;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -152,6 +172,26 @@
         &__descr {
             font-size: 15px;
             line-height: 22px;
+        }
+    }
+    .footer {
+        height: 430px;
+        &__info {
+            width: 350px;
+            height: 200px;
+            padding: 30px 34px 36px 34px;
+        }
+        &__addr {
+            margin-bottom: 26px;
+            font-size: 15px;
+            line-height: 15px;
+        }
+        &__phone {
+            font-size: 15px;
+            line-height: 15px;
+        }
+         &__social{
+            margin-top: 20px;
         }
     }
 }
@@ -282,6 +322,26 @@
         &__descr {
             font-size: 13px;
             line-height: 20px;
+        }
+    }
+    .footer {
+        height: 350px;
+        &__info {
+            width: 250px;
+            height: 150px;
+            padding: 20px 24px 26px 24px;
+        }
+        &__addr {
+            margin-bottom: 16px;
+            font-size: 12px;
+            line-height: 12px;
+        }
+        &__phone {
+            font-size: 12px;
+            line-height: 12px;
+        }
+         &__social{
+            margin-top: 10px;
         }
     }
     
