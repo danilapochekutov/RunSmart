@@ -142,6 +142,11 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
+        }
+        &__ul {
+            padding-left: 0px;
+            margin-bottom: 0;
+            list-style-type: none;
             li {
                 position: relative;
                 font-weight: 300;
